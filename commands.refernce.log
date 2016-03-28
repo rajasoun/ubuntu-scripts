@@ -1,0 +1,16 @@
+➜  scripts> script commands.log
+Script started on Sat 05 Mar 2016 07:10:34 PM PST
+
+List PORTS that are LISTENING
+➜  scripts> netstat -tupan
+
+List PORTS that are LISTENING via nmap
+➜  scripts> nmap -v -A -PN localhost
+
+Get ProcessID from PORT via LSOF
+➜  scripts> sudo lsof -ti tcp:80
+
+➜  scripts> exit
+Script done on Sat 05 Mar 2016 07:13:46 PM PST
+
+➜  scripts
